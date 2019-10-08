@@ -1,0 +1,36 @@
+{
+    "name": "bitgroupasia/toastr",
+    "description": "toastr flush notifications",
+    "authors": [
+        {
+            "name": "aepnat",
+            "email": "aep.nat@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bitgroupasia\\Toastr\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bitgroupasia\\Toastr\\ToastrServiceProvider"
+            ],
+            "aliases": {
+                "Toastr": "Bitgroupasia\\Toastr\\Facades\\Toastr"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
