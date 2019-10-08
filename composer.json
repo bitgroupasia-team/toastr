@@ -1,5 +1,6 @@
 {
     "name": "bitgroupasia/toastr",
+    "license": "MIT",
     "description": "toastr flush notifications",
     "authors": [
         {
